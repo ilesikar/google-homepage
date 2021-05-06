@@ -24,15 +24,15 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #eee;
-    padding: 10px;
+    padding: 15px;
     font-size: .9em;
     color: #555;
 }
@@ -54,6 +54,14 @@ header a:link, footer a:link {
 
 .link-group-left, .link-group-right, .profile-pic, .apps-image {
     vertical-align: middle;
+}
+
+.footer-left {
+    margin-left: 20px;
+}
+
+.footer-right {
+    margin-right: 20px;
 }
 
 a {
