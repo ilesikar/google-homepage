@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, footer {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header a, footer a {
+    color: #333
+}
+
+header a:link, footer a:link {
+    text-decoration: none;
+}
+
+a {
+    margin: 10px;
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    position: relative;
+}
+
+#search {
+    width: 580px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.search-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
